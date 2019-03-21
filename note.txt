@@ -1,0 +1,15 @@
+javaModelGenerator:指定javaBean的生成策略；
+	targetPackage：目标包名；
+	targetProject：目标工程；
+	
+sqlMapGenerator：sql映射生成策略；
+	targetPackage：目标包名；
+	targetProject：目标工程；
+	
+javaClientGenerator：指定mapper接口在的位置；
+	targetPackage：目标包名；
+	targetProject：目标工程；
+	
+table：指定要逆向生成哪些表，根据表创建javaBean；
+	tableName：需要生;成的表名；
+	domainObjectName：生成javaBean的名字；
